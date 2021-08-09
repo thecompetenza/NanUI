@@ -18,6 +18,15 @@ NanUI is an open source .NET/.NET Core component for Windows Form Applications. 
 
 WinFormium, the rendering engine of NanUI is based on Chromium Embedded Framework, so you can use various front-end technologies (HTML5/CSS3/JavaScript) and frameworks (React/Vue/Angular/Blazor) to design and develop user interface of .NET desktop applications.
 
+Which front-end JavaScript framework? (Angular, React, Vue, D3, …?)
+1. Must look good, and be efficient and responsive for very large suites
+2. May/June demos suggest development won’t be as difficult as the old GUIs (but instead we have many architectural issues to contend with).
+3. Should pages be served by the suites, or a “GUI server” under the reverse proxy?
+4. From suite server endpoints, or suite DBs? Is latency a problem in the DB case?
+5. Recent comparison (https://thecompetenza.com/vue-js-vs-angular-js/)
+6. Typescript? Maybe not
+7. Automated testing?
+
 And WinFormium's JavaScript Bridge can easily and concisely relize the communication and data exchanges between the browser and .NET enviroment.
 
 Using NanUI will bring you unlimited possibilities for designing and developmenting the UI of traditional WinForm applications!
